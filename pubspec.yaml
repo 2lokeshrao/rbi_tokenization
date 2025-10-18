@@ -1,6 +1,36 @@
+name: rbi_tokenization
+description: RBI Tokenization Service - Secure payment card tokenization app
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.0 <3.0.0'
+
 dependencies:
   flutter:
-      sdk: flutter
-        provider: ^6.0.2
-          flutter_localizations:
-              sdk: flutter
+    sdk: flutter
+  provider: ^6.0.2
+  flutter_localizations:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  
+  # Uncomment and add your assets here
+  # assets:
+  #   - assets/rbi_logo.png
+  #   - assets/images/
+  
+  # Uncomment and add your fonts here
+  # fonts:
+  #   - family: Roboto
+  #     fonts:
+  #       - asset: assets/fonts/Roboto-Regular.ttf
+  #       - asset: assets/fonts/Roboto-Bold.ttf
+  #         weight: 700
